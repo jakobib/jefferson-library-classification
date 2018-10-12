@@ -1,0 +1,93 @@
+# Jefferson Library Classification (1783)
+
+- **I** History
+    - Civil
+        - Civil Proper
+            - **1** Antient History
+            - Modern History
+                - **2** Foreign
+                - **3** British
+                - **4** American
+        - **5** Ecclesiastical
+    - Natural
+        - Physics
+            - **6** Natural Philosophy
+            - **7** Agriculture
+            - **8** Chemistry
+            - **9** Surgery
+            - **10** Medicine
+        - Nat. Hist. Proper
+            - Animals
+                - **11** Anatomy
+                - **12** Zoology
+            - **13** Vegetables: Botany
+            - **14** Minerals: Mineralogy & Geology
+        - **15** Occupations of Man: Technical Arts
+- **II** Philosophy
+    - Moral
+        - **16** Ethics
+            - Moral Philosophy
+            - Law Nature & nations
+        - Jurisprudence
+            - **17** Religious: Religion
+            - Municipal
+                - Domestic
+                    - **18** Equity
+                    - **19** Common Law
+                    - **20** Law Merchant
+                    - **21** Law Maritime
+                    - **22** Law Ecclesiastical
+                - **23** Foreign Law
+            - Oeconomical
+                - **24** Politics
+                - **25** Commerce
+    - Mathematical
+        - Pure
+            - **26** Arithmetic
+            - **27** Geometry
+        - **28** Physico-Mathematical
+            - Mechanics
+            - Statics
+            - Dynamics
+            - Pneumatics
+            - Phonics
+            - Optics
+            - **29** Astronomy
+            - **30** Geography
+                - General
+                - Europe
+                - Asia
+                - Africa
+                - America
+- **III** Fine Arts
+    - **31** Gardening
+    - **32** Architecture
+    - **33** Sculpture
+    - **34** Painting
+    - Music
+        - **35** Theoretical: Music Theory
+        - Practical
+            - **36** Music Vocal
+            - **37** Music Instrumental
+    - Poetry
+        - Narrative
+            - **38** Epic
+            - **39** Romance
+        - Dramatic
+            - **40** Tragedy
+            - **41** Comedy
+            - **42** Pastorals
+            - **42** Odes
+            - **42** Elegies
+            - **42** Dialogue
+        - **43** Didactic
+            - Satire
+            - Epigram
+            - Epistles
+    - Oratory
+        - **44** Logic
+            - Rhetoric
+            - Oration
+    - **45** Criticism
+- **46** Authors who have written on various branches: Polygraphical
+- Mathematical apparatus  

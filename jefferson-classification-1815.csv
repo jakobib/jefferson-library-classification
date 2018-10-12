@@ -2,19 +2,19 @@ level,notation,en
 >,I,History
 >>,,Civil
 >>>,,Civil Proper
->>>>,1,Antient History 
+>>>>,1,Antient History
 >>>>,,Modern History
 >>>>>,2,Foreign
->>>>>,3,British 
->>>>>,4,American 
+>>>>>,3,British
+>>>>>,4,American
 >>>,5,Ecclesiastical
 >>,,Natural
 >>>,,Physics
 >>>>,6,Natural Philosophy
->>>>,7,Agriculture 
->>>>,8,Chemistry 
->>>>,9,Surgery 
->>>>,10,Medicine 
+>>>>,7,Agriculture
+>>>>,8,Chemistry
+>>>>,9,Surgery
+>>>>,10,Medicine
 >>>,,Nat. Hist. Proper
 >>>>,,Animals
 >>>>>,11,Anatomy
@@ -24,34 +24,39 @@ level,notation,en
 >>>,15,Occupations of Man: Technical Arts
 >,II,Philosophy
 >>,,Moral
->>>,,Ethics
->>>>,16,Moral Philosophy
->>>>,16,Law Of Nature & Nations 
+>>>,16,Ethics
+>>>>,,Moral Philosophy
+>>>>,,Law Of Nature & Nations
 >>>,,Jurisprudence
 >>>>,17,Religious: Religion
 >>>>,,Municipal
 >>>>>,,Domestic
->>>>>>,18,Equity 
->>>>>>,19,Common Law 
->>>>>>,20,Law Merchant 
->>>>>>,21,Law Maritime 
->>>>>>,22,Law Ecclesiastical 
->>>>>,23,Foreign Law 
+>>>>>>,18,Equity
+>>>>>>,19,Common Law
+>>>>>>,20,Law Merchant
+>>>>>>,21,Law Maritime
+>>>>>>,22,Law Ecclesiastical
+>>>>>,23,Foreign Law
 >>>>,,Oeconomical
 >>>>>,24,Politics
 >>>>>,24,Commerce
 >>,,Mathematical
 >>>,,Pure
->>>>,25,Arithmetic 
->>>>,26,Geometry 
->>>,,Physico-Mathematical
->>>>,27,Mechanics
->>>>,27,Statics
->>>>,27,Pneumatics
->>>>,27,Phonics
->>>>,27,Optics
->>>>,28,Astronomy 
+>>>>,25,Arithmetic
+>>>>,26,Geometry
+>>>,27,Physico-Mathematical
+>>>>,,Mechanics
+>>>>,,Statics
+>>>>,,Pneumatics
+>>>>,,Phonics
+>>>>,,Optics
+>>>>,28,Astronomy
 >>>>,29,Geography
+>>>>>,,General
+>>>>>,,Europe
+>>>>>,,Asia
+>>>>>,,Africa
+>>>>>,,America
 >,III,Fine Arts
 >>,30,Architecture
 >>,31,Gardening
@@ -67,13 +72,13 @@ level,notation,en
 >>>,36,Didactic
 >>>,37,Comedy
 >>>,39,Dialogue
->>>,39,Epistles
->>,,Oratory 
+>>>>,,Epistolary
+>>,,Oratory
 >>>,40,Logic
->>>,40,Rhetoric
->>>,40,Orations
->>,,Criticism 
+>>>>,,Rhetoric
+>>>>,,Orations
+>>,,Criticism
 >>>,41,Theory
 >>>,42,Bibliography
 >>>,43,Languages
->,44,Authors who have written on various branches: Polygraphical 
+>,44,Authors who have written on various branches: Polygraphical

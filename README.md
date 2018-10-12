@@ -28,10 +28,6 @@ Jefferson created a handwritten copy of his catalog around 1812 and offered his 
 
 ![](jefferson-classification-1815.png)
 
-The catalog was later reconstructed by Sowerby (1952-1959) based on the 1783 Catalog of Books.
-
-...
-
 ### 1823
 
 In 1823 Nicholas Philip Trist, Jefferson's private secretary and grandson-in-law, recreate the 1812 Catalog which had been modified by Watterston's alphabetical arrangement. Trist's manuscript was rediscovered in the 1980s and [has been digitized](https://www.wdl.org/en/item/3000/) later. Jefferson's classification is not included explicitly but only as chapter headings. The Thomas Jefferson Foundation [refers to the 1815 classifcation](http://tjlibraries.monticello.org/transcripts/trist/trist.html) as table of contents of the Trist catalog.
@@ -43,6 +39,10 @@ After selling his personal library to the Library of Congress, Jefferson assembl
 ![](jefferson-classification-1829.png)
 
 This classification includes auction lot numbers instead of caption numbers and differs at several places from the previous library classification.
+
+### 1952
+
+E. Millicent Sowerby reconstructed Jefferson's catalog from 1815 based on the 1783 Catalog of Books. Her version of the classification is identical to the 1815 version except for some captions, inclusion of sub-chapters and use of latin class numbers. This version may be used as alternative view to the classification but it has not been processed yet.
 
 ## The dataset
 
@@ -57,9 +57,9 @@ in the Basel Register of Thesauri, Ontologies & Classifications (BARTOC) with UR
 
 The classifications have been digitized as CSV files. The files are archive as part of this publication at <https://doi.org/10.5281/zenodo.1459628> and managed in a GitHub repository at <https://github.com/jakobib/jefferson-library-classification>:
 
-* `jefferson-1783.csv` (Jefferson's second library before sold to Congress)
-* `jefferson-1815.csv` (Jefferson's second library when sold to Congress)
-* `jefferson-1829.csv` (Jefferson's third library, 1815-1826)
+* `jefferson-classification-1783.csv` (Jefferson's second library before sold to Congress)
+* `jefferson-classification-1815.csv` (Jefferson's second library when sold to Congress)
+* `jefferson-classification-1829.csv` (Jefferson's third library, 1815-1826)
 
 The CSV files include three columns for each class:
 
@@ -67,7 +67,11 @@ The CSV files include three columns for each class:
 * `notation`: caption number or auction number, if available
 * `en`: English caption
 
-Classification hierarchy can be constructed from this data. A Markdown version is included for readability, it is automatically created from CSV with script `csv2md.pl`.
+Classification hierarchy can be constructed from this data. A Markdown version is included for readability, it is automatically created from CSV with script `csv2md.pl`:
+
+* [1783](jefferson-classification-1783.md)
+* [1815](jefferson-classification-1815.md)
+* [1829](jefferson-classification-1829.md)
 
 Additional work is needed to encode the classification in RDF, in particular definition or URIs for each class. A similar digitization of Bacon's classification and its versions is also advisable.
 
