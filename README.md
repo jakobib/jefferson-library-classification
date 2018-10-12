@@ -1,6 +1,6 @@
-# Jefferson Library Classification
+# Jefferson's Library Classification Reconstructed 
 
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.1459628)](https://doi.org/10.5281/zenodo.1459628)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.1459628)](https://doi.org/10.5281/zenodo.1459628) <https://doi.org/10.5281/zenodo.1459628>
 
 [![ORCID](orcid.png)](https://orcid.org/0000-0002-7613-4123) Jakob Voß
 
@@ -10,13 +10,15 @@ This dataset contains a machine-readable version of Thomas Jefferson's Classific
 
 ## History
 
-The classification was created by Jefferson to organize his personal library which eventually became the Library Of Congress (LOC) in 1815. The LOC continued to use the classification until replaced by the Library of Congress Classification (LCC) in 1897.
+Thomas Jefferson collected several thousand books during his lifetime. He organized his collection with a library classification scheme roughly based on a classification of knowledge by Francis Bacon. Jefferson's second library eventually became the Library Of Congress (LOC) in 1815. The LOC continued to use Jefferson's classification until replaced by the Library of Congress Classification (LCC) in 1897. 
+
+As noted by Wilson (1984, p. 624) the classification "went through an interesting process of evolution" including relocation of books between classes.
 
 Catalogs of Jefferson's libraries and its classification have been preserved in at least four versions.  The Massachusetts Historical Society compiled a [Timeline of Jefferson's Catalog](https://www.masshist.org/thomasjeffersonpapers/catalog1783/catalog_timeline.php).
 
 ### 1783
 
-The *1783 Catalog of Books* is a handwritten list of books in Thomas Jefferson's personal library, eventually sold to the Library of Congress in 1815. Jefferson started the catalog after his first library was destroyed by fire in 1770. The 246-pages manuscript dates from circa 1775-1812. A [digitized version](https://www.masshist.org/thomasjeffersonpapers/catalog1783) is available. Jefferson outlined his classification on pages [10](https://www.masshist.org/thomasjeffersonpapers/doc?id=catalog1783_10), [11](https://www.masshist.org/thomasjeffersonpapers/doc?id=catalog1783_11), and [12](https://www.masshist.org/thomasjeffersonpapers/doc?id=catalog1783_10).
+The *1783 Catalog of Books* is a handwritten list of books in Thomas Jefferson's personal library, eventually sold to the Library of Congress in 1815. Jefferson started the catalog after his first library was destroyed by fire in 1770. The 246-pages manuscript dates from circa 1775-1812 with continuous editing during this time. A [digitized version](https://www.masshist.org/thomasjeffersonpapers/catalog1783) is available. Jefferson outlined his classification on pages [10](https://www.masshist.org/thomasjeffersonpapers/doc?id=catalog1783_10), [11](https://www.masshist.org/thomasjeffersonpapers/doc?id=catalog1783_11), and [12](https://www.masshist.org/thomasjeffersonpapers/doc?id=catalog1783_10).
 
 ![](jefferson-classification-1783.png)
 
@@ -26,13 +28,17 @@ Jefferson created a handwritten copy of his catalog around 1812 and offered his 
 
 ![](jefferson-classification-1815.png)
 
+The catalog was later reconstructed by Sowerby (1952-1959) based on the 1783 Catalog of Books.
+
+...
+
 ### 1823
 
 In 1823 Nicholas Philip Trist, Jefferson's private secretary and grandson-in-law, recreate the 1812 Catalog which had been modified by Watterston's alphabetical arrangement. Trist's manuscript was rediscovered in the 1980s and [has been digitized](https://www.wdl.org/en/item/3000/) later. Jefferson's classification is not included explicitly but only as chapter headings. The Thomas Jefferson Foundation [refers to the 1815 classifcation](http://tjlibraries.monticello.org/transcripts/trist/trist.html) as table of contents of the Trist catalog.
 
 ### 1829
 
-After selling his personal library to the Library of Congress, Jefferson assembled a new collection which was sold after his death. The catalog of this library, printed in as auction catalog 1829, contains the classification at page 3. The catalog [has been digizized](https://www.thehenryford.org/collections-and-research/digital-collections/artifact/384739/) by the Henry Ford Archive.
+After selling his personal library to the Library of Congress, Jefferson assembled a new collection which was sold after his death. The catalog of this library, printed in as auction catalog 1829, contains the classification at page 3. The catalog [has been digized](https://www.thehenryford.org/collections-and-research/digital-collections/artifact/384739/) by the Henry Ford Archive.
 
 ![](jefferson-classification-1829.png)
 
@@ -51,9 +57,9 @@ in the Basel Register of Thesauri, Ontologies & Classifications (BARTOC) with UR
 
 The classifications have been digitized as CSV files. The files are archive as part of this publication at <https://doi.org/10.5281/zenodo.1459628> and managed in a GitHub repository at <https://github.com/jakobib/jefferson-library-classification>:
 
-* `jefferson-1783.csv` (Jefferson's first library, later extended to the second library)
-* `jefferson-1815.csv` (Jefferson's second library, the first Library of Congress)
-* `jefferson-1829.csv` (Jefferson's third library)
+* `jefferson-1783.csv` (Jefferson's second library before sold to Congress)
+* `jefferson-1815.csv` (Jefferson's second library when sold to Congress)
+* `jefferson-1829.csv` (Jefferson's third library, 1815-1826)
 
 The CSV files include three columns for each class:
 
@@ -63,7 +69,7 @@ The CSV files include three columns for each class:
 
 Classification hierarchy can be constructed from this data. A Markdown version is included for readability, it is automatically created from CSV with script `csv2md.pl`.
 
-*...add JSKOS/RDF...*
+Additional work is needed to encode the classification in RDF, in particular definition or URIs for each class. A similar digitization of Bacon's classification and its versions is also advisable.
 
 ## License
 
@@ -79,5 +85,9 @@ All digitized content used and included in this data set is out of copyright. I 
 * Thomas Jefferson, Nicholas Philip Trist, George Watterston: *Manuscript Catalogue of Thomas Jefferson's Library* (1823). Digitized available at <https://www.wdl.org/en/item/3000/>.
 
 * Nathaniel P. Poor, Thomas Jefferson: *Auction Catalog for Thomas Jefferson's Library* (1829). Digitized available at <https://www.thehenryford.org/collections-and-research/digital-collections/artifact/384739/>.
+
+* E. Millicent Sowerby: Catalogue of the Library of Thomas Jefferson (1952-1959). Library of Congress. Digitized available at <https://catalog.hathitrust.org/Record/001166326>.
+
+* Douglas L. Wilson: *Sowerby Revisited: The Unfinished Catalogue of Thomas Jefferson's Library* (1984). In: *The William and Mary Quarterly*. Vol. 41, No. 4. <https://doi.org/10.2307/1919156>.
 
 * Andreas Ledl, Jakob Voß: Describing Knowledge Organization Systems in BARTOC and JSKOS (2016). In: *Term Bases and Linguistic Linked Open Data. Proceedings of TKE 2016*, page 168-178. <http://hdl.handle.net/10760/29366>.

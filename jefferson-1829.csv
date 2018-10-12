@@ -1,0 +1,57 @@
+level,notation,en
+>,,History
+>>,,Civil
+>>>,1,Ancient History 
+>>>,67,Modern History
+>>,,Natural
+>>>,167,Natural History General
+>>>,,Animals
+>>>>,170,Brutes: Zoology
+>>>>,,Man
+>>>>>,179,his Structure: Anatomy
+>>>>>,,his Physiology
+>>>>>>,180,Surgery
+>>>>>>,181,Medicine
+>>>>>,,his Occupations
+>>>>>>,207,Technics
+>>>>>>,208,Agriculture
+>>>,277,Vegetables: Botany
+>>>,,Minerals: Mineralogy
+>>>,,Physics
+>>>>,289,Chemistry
+>>>>,295,Physics
+>>>,,The Earth
+>>>>,307,Geography
+>>>>,283,Geology
+>>>,372,The Heavens: Astronomy 
+>,,Philosophy
+>>,,Mathematics
+>>>,384,The Science of Quantity: Mathematics
+>>>,409,The Science of Space: Geometry
+>>,,Ethical
+>>>,,Morality
+>>>>,,Ethics
+>>>>>,416,Ancient
+>>>>>,454,Modern
+>>>,,Moral Supplements
+>>>>,496,Religion
+>>>>,618,Law
+>>>,618,Social Organization: Politics
+>,,Fine Arts
+>>,724,Beaux Arts: sc. Architecture; Gardening; Painting; Sculpture; Music: Design
+>>,,Belles Lettres
+>>>,,Poetry
+>>>>,,Narrative
+>>>>>,721,Metrical: Epic
+>>>>>,743,Prosaic: Romance
+>>>>,749,Dialogue: Dramatic
+>>>>,768,Moral: Metrical; Prosaic: Didactic
+>>>>,783,Levities: sc. Pastoral; Amatory; Lyric; etc.
+>>>,,Oratory
+>>>>,,Rhetoric
+>>>>,807,Oratory
+>>>,,Criticism 
+>>>>,827,Criticism 
+>>>>,837,Philology
+>>>>,,Bibliography
+>,916,The Faculties promiscuosly: Polygraphical 
