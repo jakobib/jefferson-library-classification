@@ -1,10 +1,10 @@
 # Jefferson's Library Classification Reconstructed 
 
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.1459628)](https://doi.org/10.5281/zenodo.1459628) <https://doi.org/10.5281/zenodo.1459628>
+<https://doi.org/10.5281/zenodo.1459628>
 
 [![ORCID](orcid.png)](https://orcid.org/0000-0002-7613-4123) Jakob Voß
 
-2018-12-10
+2018-10-15
 
 This dataset contains a machine-readable version of Thomas Jefferson's Classification System. 
 
@@ -12,9 +12,7 @@ This dataset contains a machine-readable version of Thomas Jefferson's Classific
 
 Thomas Jefferson collected several thousand books during his lifetime. He organized his collection with a library classification scheme roughly based on a classification of knowledge by Francis Bacon. Jefferson's second library eventually became the Library Of Congress (LOC) in 1815. The LOC continued to use Jefferson's classification until replaced by the Library of Congress Classification (LCC) in 1897. 
 
-As noted by Wilson (1984, p. 624) the classification "went through an interesting process of evolution" including relocation of books between classes.
-
-Catalogs of Jefferson's libraries and its classification have been preserved in at least four versions.  The Massachusetts Historical Society compiled a [Timeline of Jefferson's Catalog](https://www.masshist.org/thomasjeffersonpapers/catalog1783/catalog_timeline.php).
+As noted by Wilson (1984, p. 624) the classification "went through an interesting process of evolution" including relocation of books between classes. Catalogs of Jefferson's libraries and its classification have been preserved in at least four versions.
 
 ### 1783
 
@@ -40,18 +38,28 @@ After selling his personal library to the Library of Congress, Jefferson assembl
 
 This classification includes auction lot numbers instead of caption numbers and differs at several places from the previous library classification.
 
-### 1952
+## Related works
 
 E. Millicent Sowerby reconstructed Jefferson's catalog from 1815 based on the 1783 Catalog of Books. Her version of the classification is identical to the 1815 version except for some captions, inclusion of sub-chapters and use of latin class numbers. This version may be used as alternative view to the classification but it has not been processed yet.
+
+In 2007 community of the social cataloging application started to catalog all books held by Thomas Jefferson into a "legacy library". The catalog includes the full 1815 collection with 5683 records so far. The library uses tags based on Jefferson's classification. [Their outline](https://wiki.librarything.com/index.php/1783_Catalog_Classification) includes chapter subdivisions given up by Watterston's alphabetical ordering in 1815. Divisions of chapter 24 (Oeconomical Law) should be taken into account for this dataset in particular.
+
+The Massachusetts Historical Society compiled a [Timeline of Jefferson's Catalog](https://www.masshist.org/thomasjeffersonpapers/catalog1783/catalog_timeline.php) and the Thomas Jefferson Foundation provides [description and transcripts of Jefferson's catalogs](http://tjlibraries.monticello.org/browse/browse.html) including more minor catalogs. Their classifications only differ in chapter headings (e.g. renaming of "Cosmology" to "natural philosophy").
 
 ## The dataset
 
 ## Classification metadata
 
-Jefferson's library classification as abstract work has been entered in Wikidata with URI <http://www.wikidata.org/entity/Q52789832> and
-in the Basel Register of Thesauri, Ontologies & Classifications (BARTOC) with URI <http://bartoc.org/en/node/18722>.
+Jefferson's library classification as abstract work has been entered into Wikidata and into the Basel Register of Thesauri, Ontologies & Classifications (BARTOC) with two URIs:
 
-*...add versions to *WikiCite*...*
+* <http://bartoc.org/en/node/18722>
+* <http://www.wikidata.org/entity/Q52789832>
+
+Three publications used as source of the classification data have been entered into Wikidata/WikiCite for referencing and enrichment:
+
+* [Q57321524](http://www.wikidata.org/entity/Q57321524) *1783 Catalog of Books* (circa 1775-1812)
+* [Q57321620](http://www.wikidata.org/entity/Q57321620) *Catalogue of the Library of the United States* (1815)
+* [Q57321675](http://www.wikidata.org/entity/Q57321675) *Auction Catalog for Thomas Jefferson's Library* (1829)
 
 ## Classification data
 
@@ -93,5 +101,7 @@ All digitized content used and included in this data set is out of copyright. I 
 * E. Millicent Sowerby: Catalogue of the Library of Thomas Jefferson (1952-1959). Library of Congress. Digitized available at <https://catalog.hathitrust.org/Record/001166326>.
 
 * Douglas L. Wilson: *Sowerby Revisited: The Unfinished Catalogue of Thomas Jefferson's Library* (1984). In: *The William and Mary Quarterly*. Vol. 41, No. 4. <https://doi.org/10.2307/1919156>.
+
+* *Legacy Library: Thomas Jefferson* (2007). <https://www.librarything.com/profile/ThomasJefferson>
 
 * Andreas Ledl, Jakob Voß: Describing Knowledge Organization Systems in BARTOC and JSKOS (2016). In: *Term Bases and Linguistic Linked Open Data. Proceedings of TKE 2016*, page 168-178. <http://hdl.handle.net/10760/29366>.
