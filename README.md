@@ -40,9 +40,9 @@ This classification includes auction lot numbers instead of caption numbers and 
 
 ## Related works
 
-E. Millicent Sowerby reconstructed Jefferson's catalog from 1815 based on the 1783 Catalog of Books. Her version of the classification is identical to the 1815 version except for some captions, inclusion of sub-chapters and use of latin class numbers. This version may be used as alternative view to the classification but it has not been processed yet.
+E. Millicent Sowerby reconstructed Jefferson's catalog from 1815 based on the 1783 Catalog of Books. Her version of the classification is identical to the 1815 version except for some captions, inclusion of sub-chapters and use of latin class numbers. This version may be used as alternative view to the classification but it has not been processed yet for this analysis.
 
-In 2007 community of the social cataloging application started to catalog all books held by Thomas Jefferson into a "legacy library". The catalog includes the full 1815 collection with 5683 records so far. The library uses tags based on Jefferson's classification. [Their outline](https://wiki.librarything.com/index.php/1783_Catalog_Classification) includes chapter subdivisions given up by Watterston's alphabetical ordering in 1815. Divisions of chapter 24 (Oeconomical Law) should be taken into account for this dataset in particular.
+In 2007 the community of the social cataloging application [LibraryThing](https://librarything.com) started to catalog all books held by Thomas Jefferson into a "legacy library". The catalog includes the full 1815 collection with 5683 records so far. The library uses tags based on Jefferson's classification. [Their outline](https://wiki.librarything.com/index.php/1783_Catalog_Classification) includes chapter subdivisions given up by Watterston's alphabetical ordering in 1815. Divisions of chapter 24 (Oeconomical Law) should be taken into account for this analysis.
 
 The Massachusetts Historical Society compiled a [Timeline of Jefferson's Catalog](https://www.masshist.org/thomasjeffersonpapers/catalog1783/catalog_timeline.php) and the Thomas Jefferson Foundation provides [description and transcripts of Jefferson's catalogs](http://tjlibraries.monticello.org/browse/browse.html) including more minor catalogs. Their classifications only differ in chapter headings (e.g. renaming of "Cosmology" to "natural philosophy").
 
@@ -63,7 +63,7 @@ Three publications used as source of the classification data have been entered i
 
 ## Classification data
 
-The classifications have been digitized as CSV files. The files are archive as part of this publication at <https://doi.org/10.5281/zenodo.1459628> and managed in a GitHub repository at <https://github.com/jakobib/jefferson-library-classification>:
+The classifications have been digitized as CSV files. The files are archived as part of this publication at <https://doi.org/10.5281/zenodo.1459628> and managed in a GitHub repository at <https://github.com/jakobib/jefferson-library-classification>:
 
 * `jefferson-classification-1783.csv` (Jefferson's second library before sold to Congress)
 * `jefferson-classification-1815.csv` (Jefferson's second library when sold to Congress)
